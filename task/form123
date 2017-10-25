@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>
+FORM
+</title>
+<body>
+First name:<input type="Text" id="first name" name="first nane" size="25" maxlength="60"><br/>
+Last  name:<input type="Text" id="last name" name="last nane" size="25" maxlength="60"><br/></br>
+  Email Id:<input type="Text" id="Email Id" name="Email id" size="25"maxlength="10"><br/>
+  Password:<input type="password" id="password" name="password" size="25" maxlength="10"><br/>
+Choose your Gender:<input type="radio" id="gender" name="gender" value="Male">Male
+<input type="radio" id="gender" name="gender" value="Female">Female</br><br/>
+<input type="checkbox" id="terms" name="terms" value="terms">I accept terms & conditions <br/>
+Choose your Course Joined:<input type="radio" id="course" name="java" value="JAVA">JAVA
+<input type="radio" id="course" name="PHP" value="PHP">PHP</br><br/>
+Upload Doubts:<input type="file" id="myFile"></br>
+Start Date:<input type="date" id="myDate" >
+End Date:<input type="date" id="myDate" >
+Min Class Hours:<input type="class hours" id="mytime">
+City:<input type="city" id="mycity">
+<option>city</option><option>Hyderabad</option><option>Banglore</option><option>Vizag</option><option>Delhi</option><option>Goa</option>
+Comments:<textarea rows="5" cols="50">
+</textarea><br/>
+<fieldset>
+<input type="text">
+<input type="submit">
+</fieldset>
+
+</body>
+</html>
